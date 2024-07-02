@@ -32,13 +32,13 @@ function App() {
 
             </div>
             <div className="name-div flex flex-col items-center">
-              <div className="name-1 font-bold">Ms. Madison Young,<span>53</span></div>
-              <div className="name-2">Beamont,Saskatchewan,Canada</div>
+              <div className="name-1 font-bold">Ms. Madison Young,<span className='text-[rgb(228,230,231)]'>53</span></div>
+              <div className="name-2 text-[rgb(156,158,160)] tracking-wider font-bold">Beamont,Saskatchewan,Canada</div>
             </div>
             {/* <hr className='w-full mt-2'/> */}
             <div className="contact-div flex justify-between w-full px-8 py-8 pt-3 border-t-2 border-[rgb(15,205,241)] mt-5">
-              <div className="phone-div">9-980889</div>
-              <div className="mobile-div">89798708</div>
+              <div className="phone-div flex items-center gap-2"><i class="fa-solid fa-phone text-[rgb(15,205,241)]"></i>9-980889</div>
+              <div className="mobile-div flex items-center gap-2"><i class="fa-solid fa-mobile text-[rgb(15,205,241)]"></i>89798708</div>
             </div>
           </div>{/* mini container */}
           <div className='pt-5'><button className='bg-[rgb(25,43,74)] px-2 text-white py-1'>Get New User</button></div>
